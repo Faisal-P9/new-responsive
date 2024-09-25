@@ -93,23 +93,6 @@ function swiperCode() {
 
 
 
-
-
-
-
-
-
-var Scrollbar = window.Scrollbar;
-
-var options = {
-  damping: 0.01
-}
-
-Scrollbar.init(document.querySelector('#my-scrollbar'), options);
-
-
-
-
 const lenis = new Lenis();
 
 function raf(time) {
@@ -920,14 +903,6 @@ function scrollBallCode() {
   });
 
   ScrollTrigger.create({
-    trigger: ".weboramaAd",
-    start: "top 30%",
-    end: "bottom 32%",
-    id: 'two',
-    toggleClass: { targets: ".richCircle", className: "active" }
-  });
-
-  ScrollTrigger.create({
     trigger: ".displayAd",
     start: "top 30%",
     end: "bottom 32%",
@@ -936,11 +911,11 @@ function scrollBallCode() {
   });
 
   ScrollTrigger.create({
-    trigger: ".dynamicAd",
+    trigger: ".weboramaAd",
     start: "top 30%",
     end: "bottom 32%",
-    id: 'four',
-    toggleClass: { targets: ".dynamicCircle", className: "active" }
+    id: 'two',
+    toggleClass: { targets: ".richCircle", className: "active" }
   });
 
   ScrollTrigger.create({
@@ -952,11 +927,11 @@ function scrollBallCode() {
   });
 
   ScrollTrigger.create({
-    trigger: ".shadowAd",
+    trigger: ".dynamicAd",
     start: "top 30%",
-    end: "bottom 22%",
-    id: 'six',
-    toggleClass: { targets: ".productionCircle", className: "active" }
+    end: "bottom 32%",
+    id: 'four',
+    toggleClass: { targets: ".dynamicCircle", className: "active" }
   });
 
   ScrollTrigger.create({
@@ -965,6 +940,14 @@ function scrollBallCode() {
     end: "bottom 32%",
     id: 'seven',
     toggleClass: { targets: ".showreelCircle", className: "active" }
+  });
+
+  ScrollTrigger.create({
+    trigger: ".shadowAd",
+    start: "top 30%",
+    end: "bottom 22%",
+    id: 'six',
+    toggleClass: { targets: ".productionCircle", className: "active" }
   });
 
   ScrollTrigger.create({

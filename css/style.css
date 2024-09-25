@@ -667,10 +667,10 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    mask-image: url("http://s0.2mdn.net/creatives/assets/4256248/mask1.png");
+    mask-image: url("https://s0.2mdn.net/creatives/assets/4256248/mask1.png");
     mask-size: cover;
     mask-position: 0% 0%;
-    -webkit-mask-image: url("http://s0.2mdn.net/creatives/assets/4256248/mask1.png");
+    -webkit-mask-image: url("https://s0.2mdn.net/creatives/assets/4256248/mask1.png");
     -webkit-mask-size: cover;
     -webkit-mask-position: 0% 0%;
     transition: mask-position;
@@ -1280,13 +1280,6 @@ main {
   border-radius: 10px;
   border: 1px solid #cccbcb; }
 
-.richCircle {
-  width: 10px;
-  height: 10px;
-  background-color: #fde4db;
-  border-radius: 10px;
-  border: 1px solid #cccbcb; }
-
 .displayCircle {
   width: 10px;
   height: 10px;
@@ -1294,10 +1287,10 @@ main {
   border-radius: 10px;
   border: 1px solid #cccbcb; }
 
-.dynamicCircle {
+.richCircle {
   width: 10px;
   height: 10px;
-  background-color: #e7e2f4;
+  background-color: #dce4eb;
   border-radius: 10px;
   border: 1px solid #cccbcb; }
 
@@ -1308,10 +1301,10 @@ main {
   border-radius: 10px;
   border: 1px solid #cccbcb; }
 
-.productionCircle {
+.dynamicCircle {
   width: 10px;
   height: 10px;
-  background-color: #c4dcec;
+  background-color: #e7e2f4;
   border-radius: 10px;
   border: 1px solid #cccbcb; }
 
@@ -1319,6 +1312,13 @@ main {
   width: 10px;
   height: 10px;
   background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #cccbcb; }
+
+.productionCircle {
+  width: 10px;
+  height: 10px;
+  background-color: #c4dcec;
   border-radius: 10px;
   border: 1px solid #cccbcb; }
 
@@ -3512,7 +3512,7 @@ main {
 .weboramaScrollCircleTop {
   width: 13px;
   height: 13px;
-  background-color: rgba(244, 171, 40, 0.302);
+  background-color: #dce4eb;
   position: absolute;
   top: 10%;
   left: 8px;
@@ -3524,7 +3524,7 @@ main {
 .weboramaScrollCircleBottom {
   width: 13px;
   height: 150px;
-  background-color: rgba(244, 171, 40, 0.302);
+  background-color: #dce4eb;
   position: absolute;
   bottom: 73%;
   left: 8px;
